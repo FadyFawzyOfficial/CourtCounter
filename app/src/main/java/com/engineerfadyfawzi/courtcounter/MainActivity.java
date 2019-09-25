@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity
      */
     public void addOneForTeamA( View view )
     {
-        displayForTeamA( 1 );
+        scoreTeamA++;
+        displayForTeamA( scoreTeamA );
     }
     
     /**
@@ -34,7 +35,8 @@ public class MainActivity extends AppCompatActivity
      */
     public void addTwoForTeamA( View view )
     {
-        displayForTeamA( 2 );
+        scoreTeamA += 2;
+        displayForTeamA( scoreTeamA );
     }
     
     /**
@@ -44,7 +46,8 @@ public class MainActivity extends AppCompatActivity
      */
     public void addThreeForTeamA( View view )
     {
-        displayForTeamA( 3 );
+        scoreTeamA += 3;
+        displayForTeamA( scoreTeamA );
     }
     
     /**
