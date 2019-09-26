@@ -76,21 +76,21 @@
 			android:layout_width = "match_parent"
 			android:layout_height = "wrap_content"
 			android:layout_margin = "8dp"
-			android:onClick = "addThreeForTeamA"
+			android:onClick = "addThreeForTeamB"
 			android:text = "+3 Points" />
 
 		<Button
 			android:layout_width = "match_parent"
 			android:layout_height = "wrap_content"
 			android:layout_margin = "8dp"
-			android:onClick = "addTwoForTeamA"
+			android:onClick = "addTwoForTeamB"
 			android:text = "+2 Points" />
 
 		<Button
 			android:layout_width = "match_parent"
 			android:layout_height = "wrap_content"
 			android:layout_margin = "8dp"
-			android:onClick = "addOneForTeamA"
+			android:onClick = "addOneForTeamB"
 			android:text = "Feer Throw" />
 
 	</LinearLayout>
