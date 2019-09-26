@@ -9,7 +9,8 @@
 
 	<LinearLayout
 		android:layout_width = "match_parent"
-		android:layout_height = "wrap_content">
+		android:layout_height = "wrap_content"
+		android:layout_marginTop = "16dp">
 
 		<LinearLayout
 			android:layout_width = "0dp"
@@ -31,9 +32,10 @@
 				android:id = "@+id/team_a_score"
 				android:layout_width = "match_parent"
 				android:layout_height = "wrap_content"
+				android:layout_marginTop = "16dp"
+				android:layout_marginBottom = "24dp"
 				android:fontFamily = "sans-serif-light"
 				android:gravity = "center"
-				android:padding = "4dp"
 				android:text = "0"
 				android:textColor = "#000000"
 				android:textSize = "56sp" />
@@ -41,21 +43,24 @@
 			<Button
 				android:layout_width = "match_parent"
 				android:layout_height = "wrap_content"
-				android:layout_margin = "8dp"
+				android:layout_marginHorizontal = "24dp"
+				android:layout_marginBottom = "8dp"
 				android:onClick = "addThreeForTeamA"
 				android:text = "+3 Points" />
 
 			<Button
 				android:layout_width = "match_parent"
 				android:layout_height = "wrap_content"
-				android:layout_margin = "8dp"
+				android:layout_marginHorizontal = "24dp"
+				android:layout_marginBottom = "8dp"
 				android:onClick = "addTwoForTeamA"
 				android:text = "+2 Points" />
 
 			<Button
 				android:layout_width = "match_parent"
 				android:layout_height = "wrap_content"
-				android:layout_margin = "8dp"
+				android:layout_marginHorizontal = "24dp"
+				android:layout_marginBottom = "8dp"
 				android:onClick = "addOneForTeamA"
 				android:text = "Feer Throw" />
 
@@ -86,9 +91,10 @@
 				android:id = "@+id/team_b_score"
 				android:layout_width = "match_parent"
 				android:layout_height = "wrap_content"
+				android:layout_marginTop = "16dp"
+				android:layout_marginBottom = "24dp"
 				android:fontFamily = "sans-serif-light"
 				android:gravity = "center"
-				android:padding = "4dp"
 				android:text = "0"
 				android:textColor = "#000000"
 				android:textSize = "56sp" />
@@ -96,21 +102,24 @@
 			<Button
 				android:layout_width = "match_parent"
 				android:layout_height = "wrap_content"
-				android:layout_margin = "8dp"
+				android:layout_marginHorizontal = "24dp"
+				android:layout_marginBottom = "8dp"
 				android:onClick = "addThreeForTeamB"
 				android:text = "+3 Points" />
 
 			<Button
 				android:layout_width = "match_parent"
 				android:layout_height = "wrap_content"
-				android:layout_margin = "8dp"
+				android:layout_marginHorizontal = "24dp"
+				android:layout_marginBottom = "8dp"
 				android:onClick = "addTwoForTeamB"
 				android:text = "+2 Points" />
 
 			<Button
 				android:layout_width = "match_parent"
 				android:layout_height = "wrap_content"
-				android:layout_margin = "8dp"
+				android:layout_marginHorizontal = "24dp"
+				android:layout_marginBottom = "8dp"
 				android:onClick = "addOneForTeamB"
 				android:text = "Feer Throw" />
 
@@ -123,6 +132,7 @@
 		android:layout_height = "wrap_content"
 		android:layout_alignParentBottom = "true"
 		android:layout_centerHorizontal = "true"
+		android:layout_marginBottom = "32dp"
 		android:onClick = "resetScore"
 		android:text = "Reset" />
 
