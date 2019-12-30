@@ -6,9 +6,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+/**
+ * This activity keeps track of the basketball score for 2 teams.
+ */
 public class MainActivity extends AppCompatActivity
 {
+    // Tracks the score for Team A
     int scoreTeamA = 0;
+    
+    // Tracks the score for Team B
     int scoreTeamB = 0;
     
     @Override
